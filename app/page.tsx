@@ -4,6 +4,7 @@ import Projects from "@/components/Projects";
 import Testimonials from "@/components/Testimonials";
 import Process from "@/components/Process";
 import Experience from "@/components/Experience";
+import Education from "@/components/Education";
 import Contact from "@/components/Contact";
 import Navigation from "@/components/Navigation";
 
@@ -17,6 +18,7 @@ export default function Home() {
       <Testimonials />
       <Process />
       <Experience />
+      <Education />
       <Contact />
     </main>
   );

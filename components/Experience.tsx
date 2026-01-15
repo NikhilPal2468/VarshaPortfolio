@@ -6,28 +6,25 @@ import { Briefcase } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
-      title: "Senior Product Manager",
-      company: "TechCorp Inc.",
-      period: "2024 - present",
-      description: "Leading product strategy and roadmap for multiple product lines, driving growth and user engagement",
+      title: "App Dev Lead",
+      company: "Indihood",
+      period: "Jan 2025 - Jul 2025",
+      location: "Bengaluru, India",
+      description: "Led end-to-end delivery of the National ID verification feature by defining product requirements and aligning stakeholders, resulting in 46,000 new borrower registrations and a 70% reduction in verification time. Drove product roadmap strategy for OTP verification, using data-driven vendor evaluation across 8+ providers to define requirements and select a scalable solution, reducing projected operating costs by 18%. Led 5-developer team managing 8 PRDs, reducing loan application defects by 40% by validating edge cases and coordinating partner integrations across high-volume workflows.",
     },
     {
-      title: "Product Manager",
-      company: "StartupXYZ",
-      period: "2022 - 2024",
-      description: "Managed end-to-end product lifecycle, collaborated with engineering and design teams to ship impactful features",
+      title: "Application Developer",
+      company: "Indihood",
+      period: "Feb 2024 – Dec 2024",
+      location: "Bengaluru, India",
+      description: "Built real-time API performance dashboard with vendor SLA tracking, reducing failed calls by 35% and enabling data-driven product ops decisions. Integrated AI/ML-powered liveness detection and OCR into onboarding, processing 90k+ user profiles while reducing rejection rates by 60% and onboarding time by 25% (12→9 minutes).",
     },
     {
-      title: "Associate Product Manager",
-      company: "DesignStudio",
-      period: "2020 - 2022",
-      description: "Supported product initiatives, conducted user research, and defined product requirements",
-    },
-    {
-      title: "Product Analyst",
-      company: "Innovation Labs",
-      period: "2019 - 2020",
-      description: "Started my journey in product management, analyzing user data and supporting product decisions",
+      title: "Associate Software Dev II",
+      company: "Capgemini",
+      period: "Sep 2022 – Jan 2024",
+      location: "Bengaluru, India",
+      description: "Delivered cross-functional process improvement by designing and building supersede workflow, improving document transfer efficiency by 20% and strengthening collaboration across international teams. Mitigated critical program delivery risk by leading 12+ UAT cycles and coordinating disaster recovery protocols across 10+ Teamcenter modules with Microsoft UK and Norway teams, ensuring system resilience.",
     },
   ];
 
@@ -67,8 +64,9 @@ const Experience = () => {
                 <div className="flex-1">
                   <h3 className="text-xl font-semibold mb-1">{exp.title}</h3>
                   <p className="text-pink-300 font-medium mb-2">{exp.company}</p>
-                  <p className="text-sm text-gray-400 mb-3">{exp.period}</p>
-                  <p className="text-gray-300">{exp.description}</p>
+                  <p className="text-sm text-gray-400 mb-1">{exp.period}</p>
+                  {exp.location && <p className="text-sm text-gray-500 mb-3">{exp.location}</p>}
+                  <p className="text-gray-300 text-sm leading-relaxed">{exp.description}</p>
                 </div>
               </div>
             </motion.div>

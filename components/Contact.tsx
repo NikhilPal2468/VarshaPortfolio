@@ -57,13 +57,13 @@ const Contact = () => {
             <div>
               <h3 className="text-2xl font-semibold mb-6">Get in touch</h3>
               <p className="text-gray-400 mb-8">
-                I'm currently available for new projects. Let's create something amazing together!
+                Seeking product management internship/co-op roles starting January 2026. Let's connect!
               </p>
             </div>
 
             <div className="space-y-4">
               <a
-                href="mailto:varsha@example.com"
+                href="mailto:varshasp46@gmail.com"
                 className="flex items-center gap-4 glass rounded-lg p-4 hover:bg-white/10 transition-colors group"
               >
                 <div className="w-12 h-12 rounded-lg bg-gradient-to-r from-pink-300 to-rose-300 flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -71,12 +71,12 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-gray-400">Email</p>
-                  <p className="text-white">varsha@example.com</p>
+                  <p className="text-white">varshasp46@gmail.com</p>
                 </div>
               </a>
 
               <a
-                href="tel:+1234567890"
+                href="tel:+17655434288"
                 className="flex items-center gap-4 glass rounded-lg p-4 hover:bg-white/10 transition-colors group"
               >
                 <div className="w-12 h-12 rounded-lg bg-gradient-to-r from-pink-300 to-rose-300 flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -84,7 +84,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-gray-400">Phone</p>
-                  <p className="text-white">+1 (234) 567-890</p>
+                  <p className="text-white">(765) 543-4288</p>
                 </div>
               </a>
 
@@ -94,35 +94,19 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-gray-400">Location</p>
-                  <p className="text-white">India</p>
+                  <p className="text-white">West Lafayette, IN</p>
                 </div>
               </div>
             </div>
 
             <div className="flex gap-4 pt-4">
               <a
-                href="https://github.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-12 h-12 rounded-lg glass flex items-center justify-center hover:bg-white/10 transition-colors"
-              >
-                <Github size={20} />
-              </a>
-              <a
-                href="https://linkedin.com"
+                href="https://linkedin.com/in/varshaprasanna/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-12 h-12 rounded-lg glass flex items-center justify-center hover:bg-white/10 transition-colors"
               >
                 <Linkedin size={20} />
-              </a>
-              <a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-12 h-12 rounded-lg glass flex items-center justify-center hover:bg-white/10 transition-colors"
-              >
-                <Twitter size={20} />
               </a>
             </div>
           </motion.div>

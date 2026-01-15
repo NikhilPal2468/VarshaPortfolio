@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 const Hero = () => {
   const [currentTime, setCurrentTime] = useState("");
   const [typedText, setTypedText] = useState("");
-  const fullText = '"Transforming ideas into successful products"';
+  const fullText = '"Project Manager driving business strategy and execution, impacting 500K+ users"';
 
   useEffect(() => {
     const updateTime = () => {
@@ -88,14 +88,14 @@ const Hero = () => {
           >
             <div className="mb-6">
               <h1 className="text-5xl md:text-7xl font-bold mb-4">
-                <span className="gradient-text">Varsha</span>
+                <span className="gradient-text">Varsha Simpadipura</span>
                 <br />
                 <span className="text-white">Prasanna</span>
               </h1>
               <p className="text-xl md:text-2xl text-gray-400 mb-2">
-                Product Manager
+                Project Manager
               </p>
-              <p className="text-sm text-gray-500">Available for Hire</p>
+              <p className="text-sm text-gray-500">Seeking product management internship/co-op roles starting January 2026</p>
             </div>
 
             <div className="mb-8 space-y-4">
@@ -107,8 +107,12 @@ const Hero = () => {
               </div>
               <div className="flex items-center gap-6 text-sm">
                 <div>
-                  <span className="text-3xl font-bold gradient-text">30+</span>
-                  <p className="text-gray-400">happy clients</p>
+                  <span className="text-3xl font-bold gradient-text">500K+</span>
+                  <p className="text-gray-400">users impacted</p>
+                </div>
+                <div>
+                  <span className="text-3xl font-bold gradient-text">3+</span>
+                  <p className="text-gray-400">years experience</p>
                 </div>
               </div>
             </div>
@@ -131,7 +135,7 @@ const Hero = () => {
             </div>
 
             <p className="mt-8 text-sm text-gray-500">
-              From India. For the world.
+              West Lafayette, IN | Purdue University
             </p>
           </motion.div>
         </div>

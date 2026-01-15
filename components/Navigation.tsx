@@ -18,8 +18,8 @@ const Navigation = () => {
   const navItems = [
     { name: "Skills", href: "#skills" },
     { name: "Projects", href: "#projects" },
-    { name: "Testimonials", href: "#testimonials" },
     { name: "Experience", href: "#experience" },
+    { name: "Education", href: "#education" },
   ];
 
   return (
@@ -40,7 +40,7 @@ const Navigation = () => {
               window.scrollTo({ top: 0, behavior: "smooth" });
             }}
           >
-            Varsha Prasanna
+            Varsha S. Prasanna
           </a>
 
           {/* Desktop Menu */}

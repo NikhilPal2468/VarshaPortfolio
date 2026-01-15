@@ -1,45 +1,57 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Target, Users, BarChart3, Zap, FileText, GitBranch } from "lucide-react";
+import { Target, Users, BarChart3, Zap, FileText, GitBranch, Code, Database, TrendingUp, Settings } from "lucide-react";
 
 const Skills = () => {
   const skills = [
     {
       icon: Target,
-      title: "Product Strategy",
+      title: "Product Roadmap Development",
       description: "Defining product vision, roadmap, and strategic direction",
       color: "from-pink-400 to-rose-400",
     },
     {
-      icon: Users,
-      title: "Stakeholder Management",
-      description: "Collaborating with cross-functional teams and stakeholders",
+      icon: FileText,
+      title: "PRD Documentation",
+      description: "Writing comprehensive PRDs, user stories, and technical specifications",
       color: "from-pink-300 to-rose-300",
     },
     {
-      icon: BarChart3,
-      title: "Data-Driven Decisions",
-      description: "Analyzing metrics and user data to drive product decisions",
+      icon: Users,
+      title: "Stakeholder Management",
+      description: "Collaborating with cross-functional teams and managing stakeholder relationships",
       color: "from-pink-200 to-rose-200",
     },
     {
-      icon: Zap,
-      title: "Agile Methodology",
-      description: "Leading sprints and managing product backlogs efficiently",
+      icon: BarChart3,
+      title: "Data Analysis & A/B Testing",
+      description: "Analyzing metrics, user data, and conducting A/B tests to drive decisions",
       color: "from-rose-200 to-pink-200",
     },
     {
-      icon: FileText,
-      title: "Product Documentation",
-      description: "Writing PRDs, user stories, and technical specifications",
+      icon: TrendingUp,
+      title: "Go-to-Market Strategy",
+      description: "Developing and executing go-to-market strategies for product launches",
       color: "from-pink-300 to-rose-400",
     },
     {
-      icon: GitBranch,
-      title: "Product Development",
-      description: "Working closely with engineering teams to ship features",
+      icon: Code,
+      title: "Technical Skills",
+      description: "SQL, Python, REST APIs, Git, BigQuery, Tableau, Power BI",
       color: "from-rose-300 to-pink-300",
+    },
+    {
+      icon: Settings,
+      title: "Tools & Platforms",
+      description: "Jira, Confluence, Agile Development, Scrum methodologies",
+      color: "from-pink-400 to-rose-300",
+    },
+    {
+      icon: Database,
+      title: "User Research",
+      description: "Conducting user research, competitive analysis, and feature prioritization",
+      color: "from-rose-400 to-pink-400",
     },
   ];
 
@@ -62,7 +74,7 @@ const Skills = () => {
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {skills.map((skill, index) => {
             const Icon = skill.icon;
             return (
